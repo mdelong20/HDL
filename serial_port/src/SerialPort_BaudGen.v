@@ -39,8 +39,8 @@ module SerialPort_BaudGen
     // -------------------------------------------------------------------------
     // Concurrent Logic
     // -------------------------------------------------------------------------
-    assign change                      = change_r;                             // Assign Internal Signal to Port
-    assign phase                       = phase_r;                              // Assign Internal Signal to Port
+    assign change                      = change_r;                              // Assign Internal Signal to Port
+    assign phase                       = phase_r;                               // Assign Internal Signal to Port
 
     // -------------------------------------------------------------------------
     // Always Process
